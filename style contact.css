@@ -132,6 +132,24 @@ body {
     font-size: 0.9rem;
 }
 
+.info-box .text .email-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.info-box .text .email-link:hover {
+    color: #12cf5a;
+    text-decoration: underline;
+}
+
+.info-box .text .email-fallback {
+    display: inline-block;
+    margin-top: 4px;
+    color: #12cf5a;
+    font-size: 0.85rem;
+    text-decoration: underline;
+}
+
 .social-links {
     margin-top: 40px;
 }

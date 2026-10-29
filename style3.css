@@ -40,6 +40,7 @@ body {
     color: #fff;
     font-size: 24px;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .navbar ul {
@@ -163,22 +164,23 @@ body {
 }
 
 .home-info .btn-sci .sci {
-    font-size: 20px;
-    margin-left: 20px;
-}
-
-.home-info .btn-sci .sci:hover {
-    color: #12cf5a;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 10px;
 }
 
 .home-info .btn-sci .sci a {
-    display: inline;
-    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
     border: 2px solid #12cf5a;
     border-radius: 50%;
     font-size: 20px;
     color: #12cf5a;
-    margin: 0 8px 20px;
+    text-decoration: none;
     transition: background-color 0.3s;
 }
 
@@ -337,9 +339,6 @@ body {
     }
 
     .home-info .btn-sci .sci {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
         margin-left: 0;
     }
 
